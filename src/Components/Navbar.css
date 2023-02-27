@@ -1,0 +1,21 @@
+.container-fluid {
+    padding: 1rem 5%;
+    gap: 2rem;
+}
+
+ul.navbar-nav {
+    gap: 2rem;
+}
+
+ul.dropdown-menu {
+    overflow: hidden;
+}
+
+ul.dropdown-menu li {
+    padding: 0 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+ul.dropdown-menu li:hover {
+    transform: scale(1.05);
+}

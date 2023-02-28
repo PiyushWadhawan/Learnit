@@ -21,7 +21,7 @@ function Navbar() {
                             <li><NavLink style={{color: 'black', textDecoration: 'none'}} to='/Instructors' className="dropdown-item">Our Instructors</NavLink></li>
                             <li><NavLink style={{color: 'black', textDecoration: 'none'}} to='/Founders' className="dropdown-item">Founders</NavLink></li>
                         </ul>
-                      </li>
+                    </li>
                     <li className="nav-item">
                         <NavLink style={{color: 'black', textDecoration: 'none'}} to='/Courses' className="nav-link">Courses</NavLink>
                     </li>

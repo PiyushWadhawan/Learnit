@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import {AiFillInstagram} from 'react-icons/ai'
+import {IoIosArrowDropupCircle} from 'react-icons/io'
 
 function Footer() {
   return (
@@ -8,7 +10,6 @@ function Footer() {
         <a href='#termsModal' data-bs-toggle="modal">
             Terms and Services
         </a>
-
 
     <div className="modal fade" id="termsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog">

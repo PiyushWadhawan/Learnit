@@ -1,0 +1,12 @@
+.error-page {
+    width: 70%;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 8rem;
+}
+
+.error-page img {
+    width: 100%;
+}

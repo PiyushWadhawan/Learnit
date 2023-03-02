@@ -1,4 +1,7 @@
 .App {
-  margin-top: 3rem;
-  background-color: black;
+  margin-top: 5rem;
+}
+
+main {
+  min-height: 70vh;
 }

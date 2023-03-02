@@ -4,7 +4,7 @@ import './Error.css'
 const Error = () => {
   return (
     <div className='error-page'>
-      <img src="https://c.tenor.com/WroA6LhOTzQAAAAM/vector-moon.gif" alt="" />
+      <img src="https://media0.giphy.com/media/UoeaPqYrimha6rdTFV/giphy.gif" alt="" />
     </div>
   )
 }

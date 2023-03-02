@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import {AiFillInstagram} from 'react-icons/ai'
-import {IoIosArrowDropupCircle} from 'react-icons/io'
 
 function Footer() {
   return (
@@ -11,7 +9,7 @@ function Footer() {
             Terms and Services
         </a>
 
-    <div className="modal fade" id="termsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id="termsModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog">
         <div className="modal-content">
         <div className="modal-header">
@@ -25,7 +23,6 @@ function Footer() {
         </div>
         <div className="modal-footer">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" className="btn btn-primary">Save changes</button>
         </div>
         </div>
     </div>

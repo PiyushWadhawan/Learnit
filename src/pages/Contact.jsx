@@ -56,9 +56,9 @@ function Contact() {
         <div style={{backgroundColor: "rgb(218, 218, 218)", padding: "1rem 0", marginTop: "2rem", borderRadius: "15px"}}>
           <h3 style={{textAlign: "center"}}>Socials</h3>
           <div style={{display: "flex", gap: "2rem", justifyContent: "center"}}>
-            <h3><a href="" style={{color: "black"}}><AiFillLinkedin/></a></h3>
-            <h3><a href="" style={{color: "black"}}><AiFillTwitterCircle/></a></h3>
-            <h3><a href="" style={{color: "black"}}><AiFillInstagram/></a></h3>
+            <h3><a href="&nbsp" style={{color: "black"}}><AiFillLinkedin/></a></h3>
+            <h3><a href="&nbsp" style={{color: "black"}}><AiFillTwitterCircle/></a></h3>
+            <h3><a href="&nbsp" style={{color: "black"}}><AiFillInstagram/></a></h3>
           </div>
         </div>
 

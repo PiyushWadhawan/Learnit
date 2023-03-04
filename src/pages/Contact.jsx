@@ -21,27 +21,15 @@ function Contact() {
               <hr />
               <form className='form-horizontal'>
               <div className="mb-3 row">
-                <label for="name" className="col-md-2 col-form-label">Name</label>
+                <label for="ques" className="col-md-2 col-form-label">Query</label>
                 <div className="col-md-6" style={{border: "solid 2px rgb(211, 211, 211)", borderRadius: "10px"}}>
-                  <input type="text" readonly className="form-control-plaintext" id="name" placeholder='Enter your name'/>
+                  <input type="text" readonly className="form-control-plaintext" id="ques" placeholder='Enter the question you want to ask'/>
                 </div>
               </div>
               <div className="mb-3 row">
                 <label for="email" className="col-md-2 col-form-label">Email</label>
                 <div className="col-md-6" style={{border: "solid 2px rgb(211, 211, 211)", borderRadius: "10px"}}>
                   <input type="email" readonly className="form-control-plaintext" id="email" placeholder='email@gmail.com'/>
-                </div>
-              </div>
-              <div className="mb-3 row">
-                <label for="pass" className="col-md-2 col-form-label">Password</label>
-                <div className="col-md-6" style={{border: "solid 2px rgb(211, 211, 211)", borderRadius: "10px"}}>
-                  <input type="password" readonly className="form-control-plaintext" id="pass" placeholder='Enter password'/>
-                </div>
-              </div>
-              <div className="mb-3 row">
-                <label for="passw" className="col-md-2 col-form-label">Confirm Password</label>
-                <div className="col-md-6" style={{border: "solid 2px rgb(211, 211, 211)", borderRadius: "10px"}}>
-                  <input type="password" readonly className="form-control-plaintext" id="passw" placeholder='Enter the same password'/>
                 </div>
               </div>
               <div className="mb-3 row">
